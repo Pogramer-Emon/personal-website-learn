@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.color{
+    color:#ec4c7a;
+}
+.header{
+    background-image: url(./personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:170px;
+}
+.header .container{
+    width:80%;
+    margin:auto;
+}
+.header .container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header .text{
+    width:40%;
+    float: left;
+}
+.header .img img{
+    float: right;
+    max-width: 50%;
+    margin-top:50px;
+    width:40%;    
+}
+.link-btn{
+    color:white;
+    background:linear-gradient(to right ,#e67595, #ec4c7a);
+    display: inline-block;
+    padding:10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.header h1:first-child{
+    font-size:50px;
+    margin-top:150px;
+}
+.header h1{
+    font-size:50px;
+    margin-top:20px;
+}
+.header p{
+    margin-top:15px;
+    font-size:16px;
+    line-height:25px;
+}
+.header .link-btn{
+    margin-top:20px;
+}
+.middle .container{
+    width:80%;
+    margin:auto;
+}
+.middle{
+    background-image: url(./personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:100px;
+}
+.middle .container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.middle .img img{
+    float: left;
+    max-width: 40%;
+    margin-top:100px;
+    width:40%;
+}
+.middle .text{
+    width:40%;
+    float: right;
+    margin-top:220px;
+}
+.middle .text h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.middle p{
+    font-size:16px;
+    line-height: 24px;;
+    margin-bottom: 20px;
+}
+.services{
+    background-image: url(./personal-website/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    background-position: right;
+}
+.services img{
+    width:100%;
+}
+.services .container{
+    width:80%;
+    margin:auto;
+}
+.services .container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.services .container img{
+    width:30%;
+    float: left;
+    cursor: pointer;
+}
+.services h3{
+    font-size: 30px;
+    text-align: center;
+    margin:100px 0px;
+}
+.services .container img{
+    margin-right: 5%;
+}
+.services .container .third-image img{
+    margin-right: 0%;
+}
+.last-part .container{
+    width:80%;
+    margin: auto;
+}
+.last-part{
+    margin-top:100px;
+    text-align: center;
+}
+.last-part .last h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:30px;
+}
+.bruch{
+    margin-bottom: 50px;
+}
+.massage{
+    margin-top:30px;
+    width:500px;
+    background:linear-gradient(to right ,#e67595, #ec4c7a);
+    padding:30px;
+    color:white;
+    margin:50px auto;
+    border-radius:5px;
+    margin-bottom: 150px;
+}
+.massage p{
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    font-size:20px;
+    margin-bottom: 40px;;
+}
+.last-part{
+    background-image: url(./personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
